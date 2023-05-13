@@ -80,9 +80,3 @@ models:
         description: Amount of the order (AUD) paid for by gift card
         tests:
           - not_null
-
-custom_nodes:
-  - name: random_node_1
-    custom_node: randomizer
-    depends_on:
-      - ref('orders')

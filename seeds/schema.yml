@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: raw_customers
+  - name: raw_orders
+  - name: raw_payments
+  - name: raw_fx_rates
+    config:
+      extractor: dbt-ndjson-extractor
